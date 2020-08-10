@@ -15,7 +15,7 @@ description: Update Tribute.info.yml if you want to change the theme description
 package: Other
 core: 8.x
 # Classy vs. Stable as a base theme: https://www.lullabot.com/articles/a-tale-of-two-base-themes-in-drupal-8-core
-base theme: stable
+base theme: classy
 
 # This section controls the libraries for your theme. For full documentation,
 # see https://www.drupal.org/node/2216195
@@ -61,5 +61,8 @@ component-libraries:
 # semi-colon is the region's description used on the admin/structure/block page.
 regions:
   header: Header
+  highlighted: Highlighted
   content: Content
   footer: Footer
+  page_top: Page top
+  page_bottom: Page bottom

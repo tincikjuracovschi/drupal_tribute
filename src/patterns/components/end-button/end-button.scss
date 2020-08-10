@@ -1,0 +1,17 @@
+// Import site utilities.
+@import '../../global/utils/init';
+
+.end-button__heading {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 70px;
+  font-size: 1.1rem;
+  letter-spacing: 0.34rem;
+  background-color: #282320;
+  border: 0;
+  text-align: center;
+  border-radius: 5px;
+  width: 500px;
+}

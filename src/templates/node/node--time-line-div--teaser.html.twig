@@ -1,0 +1,7 @@
+{%
+    include "@tribute/time-line-card/time-line-card.twig" with {
+      "date": content.field_event_date,
+      "image": content.field_image,
+      "body": content.body
+    } only
+  %}
