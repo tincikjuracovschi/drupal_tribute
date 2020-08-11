@@ -1,8 +1,11 @@
 {
-  "trailingComma": "es5",
-  "tabWidth": 2,
-  "semi": false,
-  "singleQuote": true,
-  "bracketSpacing": true,
-  "arrowParens": "always"
+	"printWidth": 80,
+	"trailingComma": "es5",
+	"tabWidth": 2,
+	"useTabs": true,
+	"semi": false,
+	"singleQuote": true,
+	"twigPrintWidth": 120,
+	"bracketSpacing": true,
+	"arrowParens": "always"
 }
