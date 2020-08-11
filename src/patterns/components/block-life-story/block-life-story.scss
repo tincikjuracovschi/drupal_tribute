@@ -1,0 +1,28 @@
+// Import site utilities.
+@import '../../global/utils/init';
+
+.block-life-story {
+  padding: 30px;
+  display: grid;
+  gap: 30px;
+  text-align: center;
+
+  .inf-title {
+    font-size: 40px;
+    color: #7b6c63;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .line {
+    height: 6px;
+    margin-top: 10px;
+    background-color: #7b6c63;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text-information {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,8 @@
+{{ attach_library('tribute/end-button') }}
+<div class="end-button">
+  <div class="end-button__heading">
+    {% if field_button_url %}
+      <a id="tribute-link" href="{{ field_button_url }}" target="_blank">{{ field_button_title }}</a>
+    {% endif %}
+  </div>
+</div>

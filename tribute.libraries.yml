@@ -104,3 +104,28 @@ slick-carousel:
       minified: true
   dependencies:
     - core/jquery
+
+time-line-card:
+  css:
+    component:
+      dist/css/time-line-card.css: {}
+
+block-life-story:
+  css:
+    component:
+      dist/css/block-life-story.css: {}
+
+block-information:
+  css:
+    component:
+      dist/css/block-information.css: {}
+
+end-button:
+  css:
+    component:
+      dist/css/end-button.css: {}
+
+freecodecamp-test:
+  js:
+    //cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js:
+      { type: external, attributes: { async: true } }

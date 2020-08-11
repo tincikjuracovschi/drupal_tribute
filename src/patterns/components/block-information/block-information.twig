@@ -1,0 +1,17 @@
+{{ attach_library('tribute/block-information') }}
+<div id="about" class="block-information">
+  <div class="inf-title">{{ title }}</div>
+  <div class="line"></div>
+  <div class="article">
+    <div id="img-div">
+      <img id="image" src="{{ image }}" />
+      <figcaption id="img-caption">{{ figcaption }}</figcaption>
+    </div>
+    <div class="text-div-inf">
+      <div class="line-info"></div>
+      {{ body }}
+      <div class="line-info"></div>
+    </div>
+  </div>
+</div>
+

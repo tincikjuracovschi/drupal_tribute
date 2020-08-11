@@ -1,0 +1,7 @@
+{% include "@tribute/block-information/block-information.twig" with {
+    "title": label,
+    "body": content.body,
+    "image": file_url(content.field_image['#items'].entity.uri.value),
+    "figcaption": content.field_image_text,
+  } only
+%}
