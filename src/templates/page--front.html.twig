@@ -44,30 +44,30 @@
 #}
 <div class="layout-container">
 
-	<header role="banner">
-		{{ page.header }}
-	</header>
+  <header role="banner">
+    {{ page.header }}
+  </header>
 
-	{{ page.primary_menu }}
-	{{ page.secondary_menu }}
+  {{ page.primary_menu }}
+  {{ page.secondary_menu }}
 
-	{{ page.breadcrumb }}
+  {{ page.breadcrumb }}
 
-	{{ page.highlighted }}
+  {{ page.highlighted }}
 
-	{{ page.help }}
+  {{ page.help }}
 
-	<main role="main">
-		<a id="main-content" tabindex="-1"></a>
-		{# link is in html.html.twig #}
-		{{ page.content }}
-	</main>
+  <main role="main">
+    <a id="main-content" tabindex="-1"></a>
+    {# link is in html.html.twig #}
+    {{ page.content }}
+  </main>
 
-	{% if page.footer %}
-		<footer role="contentinfo">
-			{{ page.footer }}
-		</footer>
-	{% endif %}
+  {% if page.footer %}
+    <footer role="contentinfo">
+      {{ page.footer }}
+    </footer>
+  {% endif %}
 
 </div>
 {# /.layout-container #}
