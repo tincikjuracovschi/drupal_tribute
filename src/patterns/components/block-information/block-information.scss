@@ -2,59 +2,68 @@
 @import '../../global/utils/init';
 
 .block-information {
-  padding: 30px;
-  display: grid;
-  gap: 40px;
-  justify-items: center;
-  line-height: 1.8;
-  margin-top: 50px;
+	padding: 30px;
+	display: grid;
+	gap: 40px;
+	justify-items: center;
+	line-height: 1.8;
+	margin-top: 50px;
 
-  .inf-title {
-    font-size: 40px;
-    color: #7b6c63;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
+	.inf-title {
+		font-size: 40px;
+		color: #7b6c63;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
 
-  .line {
-    width: 100px;
-    height: 6px;
-    margin-top: 10px;
-    background-color: #7b6c63;
-    margin-left: auto;
-    margin-right: auto;
-  }
+	.line {
+		width: 100px;
+		height: 6px;
+		margin-top: 10px;
+		background-color: #7b6c63;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-  .article {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    padding-top: 20px;
-    margin-bottom: 50px;
-    max-width: 960px;
+	.article {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-items: center;
+		padding-top: 20px;
+		margin-bottom: 50px;
+		max-width: 960px;
 
-    #img-div {
-      display: grid;
-      justify-items: center;
-      padding: 0 20px;
-      width: 80%;
-    }
+		#img-div {
+			display: grid;
+			justify-items: center;
+			padding: 0 20px;
+			width: 80%;
 
-    .text-div-inf {
-      display: grid;
-      justify-items: center;
-      align-content: center;
+			#image {
+				width: 100%;
+				height: auto;
+				max-width: 625px;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+			}
+		}
 
-      p {
-        margin-top: 0;
-      }
-    }
+		.text-div-inf {
+			display: grid;
+			justify-items: center;
+			align-content: center;
 
-    .line-info {
-      width: 100px;
-      height: 6px;
-      background-color: #7b6c63;
-      margin: 30px;
-    }
-  }
+			p {
+				margin-top: 0;
+			}
+		}
+
+		.line-info {
+			width: 100px;
+			height: 6px;
+			background-color: #7b6c63;
+			margin: 30px;
+		}
+	}
 }
