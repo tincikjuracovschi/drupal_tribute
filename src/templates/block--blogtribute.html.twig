@@ -1,7 +1,7 @@
 <div{{attributes}}>
   <div id="heder-info" style="background-image: url({{ file_url(content.field_background_image['#items'].entity.uri.value)}});">
     <div id="title">
-      {% if content.body is not empty %}
+      {% if content.body %}
         <article>
           {{ content.body }}
         </article>
