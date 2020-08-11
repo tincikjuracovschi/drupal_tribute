@@ -19,15 +19,14 @@
 
 		.image-ar {
 			width: 450px;
+			img {
+				width: 100%;
+				margin: 0 auto;
+				margin-bottom: 50px;
+				max-height: 280px;
+				object-fit: cover;
+			}
 		}
-	}
-
-	img {
-		width: 100%;
-		margin: 0 auto;
-		margin-bottom: 50px;
-		max-height: 280px;
-		object-fit: cover;
 	}
 
 	.time-line {
