@@ -1,6 +1,5 @@
-{%
-    include "@tribute/end-button/end-button.twig" with {
-      "field_button_url": content.field_more_information_button[0]['#url'],
-      "field_button_title": content.field_more_information_button[0]['#title'],
-    } only
-  %}
+{% include "@tribute/end-button/end-button.twig" with {
+    "field_button_url": content.field_more_information_button[0]['#url'],
+    "field_button_title": content.field_more_information_button[0]['#title'],
+  } only
+%}
